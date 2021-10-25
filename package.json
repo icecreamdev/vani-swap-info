@@ -75,7 +75,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "yarn build && rm -rf ../info.IceCreamSwap.finance/* && mv ./build/* ../info.IceCreamSwap.finance && cd ..\\info.IceCreamSwap.finance && git add * && git commit -am \"release deployment\" && git push"
+    "deploy": "yarn build && rm -rf ../vani-swap-info-site/* && mv ./build/* ../vani-swap-info-site && cd ..\\vani-swap-info-site && git add * && git commit -am \"release deployment\" && git push"
   },
   "browserslist": {
     "production": [
